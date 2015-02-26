@@ -8,13 +8,14 @@ You've two options-
 2. If you're familer with GIT you know what to do ;)
 
 ### prerequisites
-Node.js
+Node.js and php5
 
 On ubuntu based distros
 
-    sudo apt-get install nodejs npm
+    sudo apt-get install nodejs npm php5
 
-On other linux distros - [https://github.com/joyent/node/wiki/installing-node.js-via-package-manager](https://github.com/joyent/node/wiki/installing-node.js-via-package-manager)
+On other linux distros - [https://github.com/joyent/node/wiki/installing-node.js-via-package-manager](https://github.com/joyent/node/wiki/installing-node.js-via-package-manager)    
+[http://php.net/manual/en/install.php](http://php.net/manual/en/install.php)
 ###how to use this
 To validate your code file. Place the codefile.c in /bin directory.
 Copy validation command from cs50 and prepend "./" e.g.
@@ -24,5 +25,5 @@ Copy validation command from cs50 and prepend "./" e.g.
 Thank you Harvard, David Malan and other cs50 staff.
 
 ###Possible modifications
->Create symlink of check50 file in /usr/bin 
->No more need to move .c files. check50 will now work from any folder.
+Create symlink of check50 file in /usr/bin    
+No more need to move .c files. check50 will now work from any folder.
