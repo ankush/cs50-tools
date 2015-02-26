@@ -2,6 +2,11 @@
 ###Code validater for Harvard's cs50
 #####I am not author of any file. This is extracted from CS50 appliance.
 
+###Installation
+You've two options-   
+1. Download zip and extract it.   
+2. If you're familer with GIT you know what to do ;)
+
 ### prerequisites
 Node.js
 
@@ -17,3 +22,7 @@ Copy validation command from cs50 and prepend "./" e.g.
     ./check50 2014.fall.pset1.hello hello.c
 
 Thank you Harvard, David Malan and other cs50 staff.
+
+###Possible modifications
+>Create symlink of check50 file in /usr/bin 
+>No more need to move .c files. check50 will now work from any folder.
