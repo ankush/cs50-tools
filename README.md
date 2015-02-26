@@ -26,4 +26,12 @@ Thank you Harvard, David Malan and other cs50 staff.
 
 ###Possible modifications
 Create symlink of check50 file in /usr/bin    
-No more need to move .c files. check50 will now work from any folder.
+In terminal CD to check50/bin and execute...    
+   
+    sudo ln -s check50 /usr/bin
+    sudo chmod ugo+x /usr/bin/check50
+
+Check50 will now work from all folders.    
+Proof - [screenshot](http://i.imgur.com/npRqmO5.png)    
+
+Cheers!
