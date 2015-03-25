@@ -1,4 +1,5 @@
 # CS50 Tools
+##for Ubuntu and Ubuntu derivatives. 
 ###Install Most CS50 tools with few clicks.
 
 ###This version includes.
