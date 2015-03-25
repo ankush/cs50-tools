@@ -8,11 +8,14 @@
 
 ###Installation
 You've two options-
-1. Download zip and extract it OR If you're familer with GIT you know what to do ;)
-2. Execute both bash scripts in terminal.
+
+1. Download zip and extract it OR clone git ;)    
+2. Execute both bash scripts in terminal.   
 
     sudo bash install.sh
+    
     bash setup.sh
+    
     
 Thank you Harvard, David Malan and other cs50 staff.
 
