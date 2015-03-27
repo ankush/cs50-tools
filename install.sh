@@ -20,10 +20,10 @@ echo "Starting installation..."
 echo "This might take from 5-10 minute depending upon your internet speed."
 
 # updating packages
-# apt-get update -qq && apt-get upgrade
+apt-get update -qq && apt-get upgrade
 
 # installing some essentials and optional packages
-# apt-get install build-essential clang make openjdk-7-jdk nodejs npm php5
+apt-get install build-essential clang make openjdk-7-jdk nodejs npm php5
 
 # Installing cs50 library for C.
 cd library50-c-5
