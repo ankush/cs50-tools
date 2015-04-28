@@ -8,7 +8,6 @@
 3. SPL library
 
 ###Installation
-You've two options-
 
 1. Download zip and extract it OR clone git ;)    
 2. Execute both bash scripts in terminal.   
