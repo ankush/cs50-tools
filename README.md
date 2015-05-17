@@ -1,22 +1,25 @@
 # CS50 Tools
-##for Ubuntu and Ubuntu derivatives. 
+##for Ubuntu and Ubuntu derivatives.
 ###Install Most CS50 tools with few clicks.
 
 ###This version includes.
 1. CS50 C library.
 2. check50 and style50.
-3. SPL library
+3. Stanford Portable Library
+4. LAMP server
 
 ###Installation
 
-1. Download zip and extract it OR clone git ;)    
-2. Execute both bash scripts in terminal.   
+1. Download zip and extract it OR clone git ;)
+2. Make all shell scripts executable
 
-    sudo bash install.sh
-    
-    bash setup.sh
-    
-    
+    chmod +x *.sh
+
+3. Execute scripts
+
+    sudo ./<file name>
+
+
 Thank you Harvard, David Malan and other cs50 staff.
 
 Cheers!
