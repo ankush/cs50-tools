@@ -22,6 +22,7 @@ if [ "$EUID" -ne 0 ]
   echo 'alias make50='\''make CC=clang CFLAGS="-ggdb3 -O0 -std=c99 -Wall -Werror" LDLIBS="-lcs50 -lm -lcs"'\''' >> ~/.bashrc
   echo 'alias style50="~/cs50-tools/style50.jar"' >> ~/.bashrc
   echo 'alias check50="~/cs50-tools/check50/bin/check50"' >> ~/.bashrc
+  source ~/.bashrc
   echo "All done. Use make50 to compile files."
   echo "style50 and check50 and installed and ready to use."
 else
